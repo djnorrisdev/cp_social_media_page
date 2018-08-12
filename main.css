@@ -1,0 +1,459 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-family: sans-serif;
+}
+/* ////////////////////////////////////////////////////////////////////// */
+.body {
+  position: relative;
+}
+header{
+  background: blue;
+  padding: 15px;
+
+}
+.header-title{
+  font-size: 24px;
+  width: 20%;
+  display: inline-block;
+  margin: -4px;
+  color: #fff;
+}
+.header-links{
+  width: 15%;
+  display: inline-block;
+  margin: -4px;
+  text-align: right;
+  padding-right: 20px;
+}
+.header-links ul li {
+  display: inline-block;
+  padding-right: 8px;
+  font-size: 12px;
+
+
+}
+.header-icons{
+  width: 10%;
+  display: inline-block;
+  margin: -4px;
+  border-left: 1px solid #fff;
+}
+.header-icons ul li:last-child {
+  padding-right: 10px;
+}
+.header-icons ul li {
+  float:left;
+  padding: 0 5px 0 5px;
+  color: #fff;
+}
+.header-lock{
+  width: 10%;
+  display: inline-block;
+  margin: -4px;
+  text-align: left;
+  color: #fff;
+  padding-left: 25px;
+  border-left: 1px solid #fff;
+}
+.header-search {
+  width: 40%;
+  float: right;
+  text-align: right;
+}
+.header-search input {
+  border-radius: 5px;
+  margin: 0 5px 0 5px;
+}
+.header-search ul li{
+  display: inline-block;
+  margin: -4px;
+  color: white;
+}
+header a {
+  text-decoration: none;
+  color: #fff;
+  transition: all .2s ease-in-out;
+}
+a:hover {
+  color: red;
+}
+/* ////////top area content///////////////////////////////////// */
+.top-area{
+  background: url(http://www.hddesktops.com/web/wallpapers/rendered-fantasy-forest-wallpaper-in-4k/5120x2160.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 200px 15px 90px 15px;
+}
+.top-area #avatar-img {
+  border-radius: 50%;
+}
+.top-area .avatar-box {
+  display: inline-block;
+}
+.top-area .user-name {
+  color: #fff;
+  font-size: 24px;
+  display: inline-block;
+}
+.top-area .user-info {
+  display: inline-block;
+  vertical-align: top;
+  padding: 50px 0 0 20px;
+}
+.top-area .user-links {
+  display: block;
+  padding: 10px 0 0 2px;
+
+}
+.top-area .user-links a {
+  margin-right: 5%;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  font-size: 8px;
+  padding: 10px;
+  border-radius: 3px;
+  background: rgba(255,255,255, .3);
+  transition: background .4s ease-in-out;
+}
+.top-area .user-links a:hover {
+  background: #2196F3;
+}
+/* ////content area on left sidebar/////////////////////////////////////////////////////////// */
+.content-area {
+  background: #FAFAFA;
+  overflow: auto;
+  padding: 50px 0;
+}
+.content-area .sidebar {
+  float: left;
+  width: 35%;
+  margin: 0 2.5%;
+  max-width: 380px;
+  display: inline-block;
+}
+.content-area .sidebar .intro {
+  padding: 10px;
+  border-radius: 3px;
+  box-shadow: 0px 2px 5px -1px rgba(71,70,71,1);
+}
+.sidebar .intro .intro-head .widget-box-intro {
+  height: 40px;
+  width: 40px;
+  background: #BFBFBF;
+  border-radius: 50%;
+  display: inline-block;
+}
+.content-area .sidebar .intro .intro-head .widget-box-intro .intro-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+}
+.content-area .sidebar .intro .intro-head .widget-box-intro .intro-icon .fa {
+  font-size: 25px;
+  color: #fff;
+}
+.content-area .sidebar .intro .intro-head .intro-content {
+  display: inline-block;
+  color: grey;
+}
+.content-area .sidebar .intro .intro-about {
+  padding: 20px 0;
+}
+.content-area .sidebar .intro .intro-about .profession{
+  display: inline-block;
+  color: grey;
+}
+.content-area .sidebar .intro .intro-about .edit-icon {
+  display: inline-block;
+  float: right;
+  font-size: 20px;
+  color: grey;
+  padding-right: 2px;
+}
+.content-area .sidebar .intro .about-desc {
+  color: grey;
+}
+.content-area .sidebar .intro .update-info {
+  text-decoration: none;
+  padding-top: 20px;
+}
+.content-area .sidebar .intro .update-info a {
+  text-decoration: none;
+  color: #2196F3;
+  font-weight: 600;
+  transition: all .2s ease-in-out;
+}
+.content-area .sidebar .widget-box-photos {
+  overflow: auto;
+  margin: 20px 0;
+  padding: 10px;
+  border-radius: 3px;
+  box-shadow: 0px 2px 5px -1px rgba(71,70,71,1);
+}
+.content-area .sidebar .widget-box-photos .photos-head .photos-box-background {
+  height: 40px;
+  width: 40px;
+  background: #BFBFBF;
+  border-radius: 50%;
+  display: inline-block;
+}
+.content-area .sidebar .widget-box-photos .photos-head .photos-box-background .photos-icon {
+  height: 40px;
+  width: 40px;
+  display: flex;
+  font-size: 22px;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+.content-area .sidebar .widget-box-photos .photos-head .photos-title {
+  display: inline-block;
+  color: grey;
+  padding-left: 5px;
+}
+.content-area .sidebar .widget-box-photos .photos-head .photos-menu {
+  display: inline-block;
+  float: right;
+  color: #BABABA;
+  margin-top: 15px;
+  font-size: 12px;
+}
+.content-area .sidebar .widget-box-photos .photos-thumbs {
+  padding-top: 15px;
+}
+.content-area .sidebar .widget-box-photos .photos-thumbs img {
+  height: 110px;
+  width: 100%;
+  padding: 1px;
+}
+.content-area .sidebar .widget-box-photos .photos-thumbs div {
+  transition: transform .2s;
+  height: 110px;
+  width: 33.33%;
+  padding: 1px;
+  display: inline-block;
+  float: left;
+}
+.content-area .sidebar .widget-box-photos .photos-thumbs div:hover {
+  -ms-transform: scale(1.2);
+   -webkit-transform: scale(1.2);
+   transform: scale(1.2);
+}
+.content-area .sidebar .widget-box-friends {
+  padding: 10px;
+  border-radius: 3px;
+  box-shadow: 0px 2px 5px -1px rgba(71,70,71,1);
+  overflow: auto;
+}
+.content-area .sidebar .widget-box-friends .friends-head .friends-box-background {
+  height: 40px;
+  width: 40px;
+  background: #BFBFBF;
+  border-radius: 50%;
+  display: inline-block;
+}
+.content-area .sidebar .widget-box-friends .friends-head .friends-icon {
+height: 40px;
+width: 40px;
+display: flex;
+font-size: 22px;
+align-items: center;
+justify-content: center;
+color: #fff;
+}
+.content-area .sidebar .widget-box-friends .friends-head .friends-title {
+  display: inline-block;
+  color: grey;
+  padding-left: 5px;
+}
+.content-area .sidebar .widget-box-friends .friends-head .friends-title .friends-count{
+  display: inline-block;
+  color: grey;
+  padding-left: 5px;
+}
+.content-area .sidebar .widget-box-friends .friends-head .friends-title .friends-count ul li {
+  list-style: initial;
+  margin-left: 10px;
+}
+.content-area .sidebar .widget-box-friends .friends-head .friends-menu {
+  display: inline-block;
+  float: right;
+  color: #BABABA;
+  margin-top: 15px;
+  font-size: 12px;
+}
+.content-area .sidebar .widget-box-friends .friends-thumbs {
+  padding-top: 15px;
+}
+.content-area .sidebar .widget-box-friends .friends-thumbs img {
+  height: 110px;
+  width: 100%;
+  padding: 1px;
+}
+.content-area .sidebar .widget-box-friends .friends-thumbs div {
+  transition: transform .2s;
+  height: 110px;
+  width: 33.33%;
+  padding: 1px;
+  display: inline-block;
+  float: left;
+}
+.content-area .sidebar .widget-box-friends .friends-thumbs div:hover {
+  -ms-transform: scale(1.2);
+   -webkit-transform: scale(1.2);
+   transform: scale(1.2);
+}
+/* ////////////main content area////////////////////////// */
+.main-area {
+  position: absolute;
+  top: 430px;
+  left: 430px;
+  width: 55%;
+  margin: 0 2.5%;
+  /* display: block; */
+}
+.main-area .menu-bar {
+  height: 75px;
+  border-radius: 3px;
+  background: white;
+  box-shadow: 0px 2px 5px -1px rgba(71,70,71,1);
+  /* display: block; */
+}
+.main-area .menu-bar .menu-bar-box {
+  padding: 10px;
+}
+.main-area .post-box {
+  margin-top: 20px;
+  padding-top: 10px;
+  border-radius: 3px;
+  background: white;
+  box-shadow: 0px 2px 5px -1px rgba(71,70,71,1);
+  /* display: block; */
+}
+.main-area .post-box .post-box-icon-background {
+  height: 40px;
+  width: 40px;
+  margin-left: 10px;
+  background: #BFBFBF;
+  border-radius: 50%;
+  display: inline-block;
+}
+.main-area .post-box .post-box-icon-background .post-box-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+}
+.main-area .post-box .post-box-icon-background .post-box-icon img {
+  border-radius: 50%;
+}
+.main-area .post-box .post-box-title {
+  display: inline-block;
+  padding: 0 0 0 5px;
+  color: grey;
+  vertical-align: top;
+  margin-top: 5px;
+}
+.main-area .post-box .post-box-title .post-timestamp {
+  font-size: 12px;
+  margin-top: 5px;
+}
+.main-area .post-box .post-menu {
+  display: inline-block;
+  float: right;
+  color: #BABABA;
+  margin: 15px 10px 0 0;
+  font-size: 12px;
+}
+.post-box .post-img {
+  padding-top: 20px;
+}
+.post-box .post-img img {
+  width: 100%;
+}
+/* .post-box .post-likes-bar {
+
+vertical-align: middle;
+} */
+.post-box .post-likes-bar .post-likes-icon-container {
+  display: inline-block;
+  font-size: 24px;
+  width: 40px;
+  height: 40px;
+  color: grey;
+  vertical-align: middle;
+}
+.post-box .post-likes-bar .post-share-icon-container {
+  display: inline-block;
+  font-size: 20px;
+  width: 40px;
+  height: 40px;
+  color: grey;
+  margin-left: 10px;
+}
+.post-box .post-likes-bar .post-comment-icon-container {
+  display: inline-block;
+  font-size: 20px;
+  width: 40px;
+  height: 40px;
+  color: grey;
+  float: right;
+}
+.post-box .post-likes-bar .post-likes-icon-container .post-likes-icon{
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.post-box .post-likes-bar .post-share-icon-container .post-share-icon{
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.post-box .post-likes-bar .post-comment-icon-container .post-comment-icon{
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.post-box .received-comment-box {
+  width: 100%;
+  background-color: #eeeeee;
+}
+.post-box .received-comment-box .comment-avatar-container {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 10px;
+}
+.post-box .received-comment-box .comment-avatar-container .comment-avatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+}
+.post-box .received-comment-box .comment-avatar-container .comment-avatar img {
+ border-radius: 50%;
+}
+
+.main-area .older-posts {
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 3px;
+  background: white;
+  box-shadow: 0px 2px 5px -1px rgba(71,70,71,1);
+}
